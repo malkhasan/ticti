@@ -7,7 +7,7 @@ function clean(text) {
         return text;
 }
 
-const prefix = "$";
+const prefix = "-";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
@@ -86,7 +86,7 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 /////////
 /////////
 client.on('ready', () => {
-client.user.setGame('Tickety II $new','https://www.twitch.tv/kemo355');
+client.user.setGame('Tickety II -new','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
 By Ҝ€₥σ
